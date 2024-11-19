@@ -1,0 +1,80 @@
+/* Reset بعض الإعدادات الافتراضية */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* إعدادات الصفحة العامة */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* تصميم شريط التنقل */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .company-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* تصميم المحتوى الرئيسي */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.main-content p {
+  font-size: 18px;
+  color: #666;
+}
